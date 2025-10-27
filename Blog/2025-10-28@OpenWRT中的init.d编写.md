@@ -1,0 +1,1 @@
+# OpenWRT中的init.d编写
