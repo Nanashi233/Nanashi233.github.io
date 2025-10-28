@@ -9,10 +9,10 @@ const customElements = [
 
 const vitePressOptions = {
     title: "ABYODS Docs",
-    description: "Nanashi233的个人文档站",
-    head: [["link", { rel: "icon", href: "/.vitepress/assets/BALogo-B.svg" }]],
+    description: "Nanashi233的文档站",
+    head: [["link", { rel: "icon", href: "/BALogo-B.svg" }]],
     themeConfig: {
-        logo: { light: "/.vitepress/assets/BALogo-B.svg", dark: "/.vitepress/assets/BALogo-W.svg" },
+        logo: { light: "/BALogo-B.svg", dark: "/BALogo-W.svg" },
         outlineTitle: "本页目录",
         outline: [1, 3],
         search: {

@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "ABYDOS Docs"
-  text: "Nanashi233的个人文档站"
+  text: "Nanashi233的文档站"
   tagline: "好记性不如烂笔头"
   image:
-    light: "/.vitepress/assets/ABYDOS-B.svg"
-    dark: "/.vitepress/assets/ABYDOS-W.svg"
+    light: "/ABYDOS-B.svg"
+    dark: "/ABYDOS-W.svg"
   actions:
     - theme: brand
       text: "GitHub 仓库"
-      link: "https://github.com/Nanashi233"
+      link: "https://github.com/Nanashi233/Nanashi233.github.io"
     - theme: alt
       text: "Blue Archive"
       link: "https://bluearchive-cn.com/"
