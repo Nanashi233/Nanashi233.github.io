@@ -1,5 +1,11 @@
 import { defineConfig } from "vitepress"
-import { withSidebar } from 'vitepress-sidebar';
+import { withSidebar } from "vitepress-sidebar"
+import mathjax3 from "markdown-it-mathjax3"
+
+const customElements = [
+    'mjx-container',
+    'mjx-assistive-mml',
+];
 
 const vitePressOptions = {
     title: "ABYODS Docs",
@@ -43,6 +49,18 @@ const vitePressOptions = {
         ],
     },
     lastUpdated: true,
+    markdown: {
+        config: (md) => {
+            md.use(mathjax3);
+        },
+    },
+    vue: {
+        template: {
+            compilerOptions: {
+                isCustomElement: (tag) => customElements.includes(tag),
+            },
+        },
+    },
 };
 
 const vitePressSidebarOptions = [
